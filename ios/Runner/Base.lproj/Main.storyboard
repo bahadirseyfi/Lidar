@@ -26,15 +26,15 @@
             </objects>
             <point key="canvasLocation" x="-1567" y="-40"/>
         </scene>
-        <!--Main View Controller-->
+        <!--Main Controller-->
         <scene sceneID="3Qh-XW-Zzb">
             <objects>
-                <viewController storyboardIdentifier="MainViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Rnz-ti-Uvv" customClass="MainViewController" customModule="Runner" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Rnz-ti-Uvv" customClass="MainController" customModule="Runner" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IIr-1O-dtv"/>
                         <viewControllerLayoutGuide type="bottom" id="HIp-mr-knv"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="AAi-e3-R7X">
+                    <view key="view" contentMode="scaleToFill" id="AAi-e3-R7X" customClass="MTKView">
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
