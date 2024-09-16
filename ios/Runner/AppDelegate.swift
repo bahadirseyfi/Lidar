@@ -28,7 +28,7 @@ import Flutter
     private func navigateToNativeScreen() {
       // Storyboard'daki ViewController'ı yükleme
       let storyboard = UIStoryboard(name: "Main", bundle: nil) // Storyboard'un adı "Main"
-      let nativeViewController = storyboard.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
+      let nativeViewController = storyboard.instantiateViewController(withIdentifier: "MainController") as! MainController
 
       // UINavigationController kullanarak sunma
       let navigationController = UINavigationController(rootViewController: nativeViewController)
